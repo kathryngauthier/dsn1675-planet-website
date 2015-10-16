@@ -34,13 +34,16 @@ html{
 
 .masthead{
 	background-color: #D8D8D8;
-
 }
 
 h1{
 	text-align: center;
 	margin: 0;
 	padding: 1em;
+}
+
+.masthead{
+	padding-bottom: 1em;
 }
 
 .masthead ul{
