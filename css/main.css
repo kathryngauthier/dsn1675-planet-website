@@ -1,3 +1,10 @@
+@-moz-viewport: {width: device-width;scale: 1;}
+@-ms-viewport: {width: device-width;scale: 1;}
+@-viewport: {width: device-width;scale: 1;}
+@-o-viewport: {width: device-width;scale: 1;}
+@-webkit-viewport: {width: device-width;scale: 1;}
+@viewport: {width: device-width;scale: 1;}
+
 html {
   box-sizing: border-box;
   font: normal 100% ;
@@ -23,31 +30,30 @@ html{
 }
 
 .grid{
-	background-color: blue;
 	overflow: hidden;
 }
 
 .unit{
 	float: left;
-	background-color: red;
-}
-
-.masthead{
-	background-color: #D8D8D8;
 }
 
 h1{
 	text-align: center;
 	margin: 0;
 	padding: 1em;
+	position: relative;
+}
+
+	.masthead a{
+	text-decoration: none;
 }
 
 .masthead{
+	background-color: #D8D8D8;
 	padding-bottom: 1em;
 }
 
 .masthead ul{
-	background-color: purple;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -69,4 +75,30 @@ h1{
 
 p{
 	margin: 0;
+	margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 15em ){
+/* 240px xsmall */
+}
+
+@media only screen and (min-width: 20em){
+/* 320px */
+
+	.masthead{
+		text-align: center;;
+	}
+
+	.masthead li{
+		display: inline-block;
+}
+
+}
+
+@media only screen and (min-width: 25em){
+/*400px small*/
+}
+
+@media only screen and (min-width: 38em) {
+/*608px medium*/
 }
