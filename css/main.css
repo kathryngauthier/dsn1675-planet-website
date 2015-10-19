@@ -40,8 +40,7 @@ html{
 h1{
 	text-align: center;
 	margin: 0;
-	padding: 1em;
-	position: relative;
+	padding-top: 1em;
 }
 
 	.masthead a{
@@ -50,12 +49,6 @@ h1{
 
 .masthead{
 	background-color: #D8D8D8;
-}
-
-.masthead ul{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
 }
 
 .masthead li{
@@ -75,6 +68,12 @@ h1{
 p{
 	margin: 0;
 	margin-bottom: 1em;
+}
+
+ul{
+	margin-top: 2em;
+	padding: 0;
+
 }
 
 @media only screen and (min-width: 15em ){
@@ -100,5 +99,13 @@ p{
 
 @media only screen and (min-width: 38em) {
 /*608px medium*/
-
 }
+
+@media only screen and (min-width: 60em) {
+	/*960 large*/
+
+		.nav{
+		text-align: left;
+	}
+}
+
