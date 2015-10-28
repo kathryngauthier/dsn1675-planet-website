@@ -42,18 +42,12 @@ fieldset, pre, table {
   margin: 0 0 1.3rem;
 }
 
-a {
-  background-color: transparent;
-  color: #000;
-}
-
 .nav-background{
 	color: #fff;
 	background-color: #2BA2F7;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
 	list-style-type: none;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .grid{
