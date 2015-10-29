@@ -24,7 +24,7 @@ body{
 }
 
 a{
-	color: black;
+	color: #0080FF;
   list-style-type: none;
   text-decoration: none;
 }
@@ -42,10 +42,15 @@ background-color: #DCDCDC;
 
 .nav-background{
 	color: #fff;
-	background-color: #2BA2F7;
+	background-color: #0080FF;
 	list-style-type: none;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.nav-background a{
+	color: #fff;
+
 }
 
 @media only screen and (min-width: 15em ){
