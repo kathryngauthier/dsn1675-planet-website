@@ -30,11 +30,14 @@ a{
 }
 
 .background{
-	background-color: #EBEBEB;
+	background-color: #F6F6F6;
 }
 
+.medium-background{
+background-color: #DCDCDC;
+}
 .dark-background{
-  background-color: #CFCFCF;
+  background-color: #C1C1C1;
 }
 
 .nav-background{
