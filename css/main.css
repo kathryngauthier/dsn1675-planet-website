@@ -55,10 +55,19 @@ background-color: #DCDCDC;
 
 @media only screen and (min-width: 15em ){
 /* 240px xsmall */
+
+	h1{
+	 text-align: center;
+	}
+
 }
 
 @media only screen and (min-width: 20em){
 /* 320px */
+
+	h1{
+	 text-align: center;
+	}
 
 	.masthead{
 		text-align: center;
@@ -72,13 +81,19 @@ background-color: #DCDCDC;
 
 @media only screen and (min-width: 25em){
 /*400px small*/
+
+	h1{
+	 text-align: center;
+	}
 }
 
 @media only screen and (min-width: 38em) {
 /*608px medium*/
 
 	h1{
-		padding-top: .5em;
+		padding-top: .7em;
+		text-align: left
 	}
+
 }
 
