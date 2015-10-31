@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
+	<link href="css/modules.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/type.css" rel="stylesheet">
@@ -13,27 +14,52 @@
  </head>
 <body>
 
-	<header class="masthead gutter grid">
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-			<h1>Venus</h1>
+<header class="masthead gutter-1-2 grid grid-middle dark-background">
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+		<h1 class="" id="top">Venus</h1>
+	</div>
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 pad-t">
+		<nav>
+			<ul class="list-group">
+				<li class="pad-b-1-2 pad-t-1-2"><a href="index.html">Planet</a></li>
+				<li class="pad-b-1-2 pad-t-1-2 "><a href="moon.html">Moons</a></li>
+				<li class="pad-b-1-2 pad-t-1-2 nav-background"><a href="exploration.html">Exploration</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+		<div class="background">
+			<h3 class="gutter mega text-center pad-t-1-2 pad-b push">Exploration</h3>
 		</div>
 
-		<div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
-			<div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 pad-t">
-				<nav>
-					<ul>
-						<li><a href="index.html">Planet</a></li>
-						<li><a href="moon.html">Moons</a></li>
-						<li><a class="nav-background" href="exploration.html">Exploration</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
+<footer class="grid dark-background gutter-1-2 pad-t-1-4 xs-1 s-1 m-1 ">
 
-		<div class="unit unit-xs-1 unit-m-1 text-center background push pad-t">
-			<h3>Exploration</h3>
-		</div>
+	<div class="grid xs-1 s-1 m-1-2">
+	 <div class="unit micro">
+			<p class="push-none">© 2015 Venus Planetary Consortium</p>
+	</div>
+
+	<div class="unit micro push-r-1-4 push-0">
+		<p class="push-0"><a href="#top">· Top</a></p>
+	</div>
+	</div>
+
+	<div class="grid m-1-2">
+	<div class="unit micro">
+		<nav class="nav-footer">
+			<ul class="list-group list-group--inline">
+				<li><a href="index.html">Planet</a></li>
+				<li><a href="moon.html">Moons</a></li>
+				<li><a href="exploration.html">Exploration</a></li>
+			</ul>
+		</nav>
+	</div>
+	</div>
+
+	</div>
+</footer>
 
 
 </body>
